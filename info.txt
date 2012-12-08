@@ -1,0 +1,13 @@
+1. Tworzysz sobie na dysku folder gdzie bedzie le¿a³o repo i wchodzisz w niego
+2. git config --global user.name "nick"
+3. git config --global user.email "nick@gmail.com"
+4. git clone git://github.com/projektw/repo.git
+
+Aby wrzucic plik/pliki z kodem naszego projektu do repozytorium
+1. Wrzucasz go do katalogu repo
+2. git add nazwa_pliku
+3. git commit -a -m "komentarz"   // paramter a mowi dodaniu wszystkich plików które zmieniles
+4. git push git@github.com:projektw/repo.git master
+
+Aby zgrac zmiany 
+1. git pull git://github.com/projektw/repo.git
